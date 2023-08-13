@@ -1,11 +1,11 @@
-import { Route, Switch, useLocation } from 'react-router-dom';
-import Wrapper from '../Cash-Billing/src/components/Wrapper/Wrapper';
-import Header from'../Cash-Billing/src/components/Header/Header';
-import Invoices from '../Cash-Billing/src/components/Invoices/Invoices';
-import FormController from '../Cash-Billing/src/components/FormController/FormContorller';
-import InvoiceView from '../Cash-Billing/src/components/InvoiceView/InvoiceView';
-import Modal from '../Cash-Billing/src/components/Modal/Modal';
-import { useGlobalContext } from '../Cash-Billing/src/components/App/context';
+import {Route, Switch, useLocation} from 'react-router-dom';
+import Wrapper from '../Wrapper/Wrapper';
+import Header from'../Header/Header';
+import Invoices from '../Invoices/Invoices';
+import FormController from '../FormController/FormContorller';
+import InvoiceView from '../InvoiceView/InvoiceView';
+import Modal from '../Modal/Modal';
+import { useGlobalContext } from './context';
 import { AnimatePresence } from 'framer-motion';
 
 const App = () => {
